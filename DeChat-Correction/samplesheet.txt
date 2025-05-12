@@ -1,0 +1,4 @@
+/path/to/your/fastq/files
+#E.g.
+#/ibex/project/c2303/CS312_AI-in-Bioinformatics/data/a-thaliana/raw-reads/ont-reads/outputs/20250216_183830/fastq/SRX24586143_SRR29061597.fastq.gz
+#/ibex/project/c2303/CS312_AI-in-Bioinformatics/data/l-litseifolius/raw-reads/ont-reads/outputs/20250216_183841/fastq/SRX22722836_SRR27031029.fastq.gz
