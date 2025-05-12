@@ -81,7 +81,7 @@ Ensure `samplesheet_merge-reads.csv` is populated with:
 
 This will concatenate the two corrected FASTA files and save the result to the `HYBRID-CORRECTED-READS` directory as:
 
-```bash
+```
 <basename>.hybrid.corrected.fasta
 ```
 

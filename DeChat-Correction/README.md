@@ -78,9 +78,9 @@ Edit `nextflow.config` to adjust:
 
 ### Containers
 
-The pipeline uses a **DeChat** container hosted on [Seqera Wave]() :
+The pipeline uses a container hosted on Seqera Wave:
 
-```lua
+```
 oras://community.wave.seqera.io/library/dechat:1.0.1--0cdf9c7516a8a247
 ```
 

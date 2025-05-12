@@ -88,7 +88,9 @@ The script bins the reads into 4 predefined read length ranges:
 
 - `>50000`
 
-These ranges are processed in the script using `seqkit seq`. 2. **Processing Steps**
+These ranges are processed in the script using `seqkit seq`
+
+2.  **Processing Steps**
 
 - **Step 1** : Reads are filtered based on their length using the `seqkit seq` command.
 
@@ -100,7 +102,7 @@ These ranges are processed in the script using `seqkit seq`. 2. **Processing Ste
 
 The binned FASTQ files are saved in the output directory, which is named based on the input file. This directory is located under:
 
-```swift
+```
 /ibex/scratch/projects/c2303/CS312_AI-in-Bioinformatics/20250323_partition-data/READ-LENGTH-BENCHMARKING/BINNED-READS/
 ```
 
