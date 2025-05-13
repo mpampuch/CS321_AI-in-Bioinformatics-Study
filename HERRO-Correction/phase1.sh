@@ -4,7 +4,6 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=200G
 #SBATCH --time=2-00:00:00                   
-#SBATCH -A c2227
 #SBATCH --output=logs/preprocess.%a_%j_%N.out
 #SBATCH --error=logs/preprocess.%a_%j_%N.out
 #SBATCH --array=1-1
