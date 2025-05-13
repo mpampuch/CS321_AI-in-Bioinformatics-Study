@@ -5,7 +5,6 @@
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=200G
 #SBATCH --time=30:00                   
-#SBATCH -A c2227
 #SBATCH --output=logs/err_correction.%a_%j_%N.out
 #SBATCH --error=logs/err_correction.%a_%j_%N.out
 #SBATCH --array=1-1
