@@ -27,8 +27,8 @@ done < bamconcordance-outputs.txt > AverageMismatches.txt
 Where `bamconcordance-outputs.txt` is a file that looks like:
 
 ```
-/path/to/bamconcordance/output1
-/path/to/bamconcordance/output2
+/path/to/bamconcordance/output1.csv
+/path/to/bamconcordance/output2.csv
 etc
 ```
 
